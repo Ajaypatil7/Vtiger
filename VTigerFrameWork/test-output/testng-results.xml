@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[testOrganizationDisplayedis pass]]>
+    </line>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="213324" started-at="2019-11-12T19:52:13Z" finished-at="2019-11-12T19:55:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="213324" started-at="2019-11-12T19:52:13Z" finished-at="2019-11-12T19:55:46Z">
+      <class name="com.Vtiger.Test.testEditSerCon">
+        <test-method status="PASS" signature="openApp()[pri:0, instance:com.Vtiger.Test.testEditSerCon@1753acfe]" name="openApp" is-config="true" duration-ms="44263" started-at="2019-11-13T01:22:13Z" finished-at="2019-11-13T01:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testOrganizationDisplayed()[pri:0, instance:com.Vtiger.Test.testEditSerCon@1753acfe]" name="testOrganizationDisplayed" duration-ms="162692" started-at="2019-11-13T01:22:57Z" finished-at="2019-11-13T01:25:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testOrganizationDisplayed -->
+        <test-method status="PASS" signature="closeApp(org.testng.ITestResult)[pri:0, instance:com.Vtiger.Test.testEditSerCon@1753acfe]" name="closeApp" is-config="true" duration-ms="5651" started-at="2019-11-13T01:25:40Z" finished-at="2019-11-13T01:25:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testOrganizationDisplayed status=SUCCESS method=testEditSerCon.testOrganizationDisplayed()[pri:0, instance:com.Vtiger.Test.testEditSerCon@1753acfe] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[testOrganizationDisplayedis pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.Vtiger.Test.testEditSerCon -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
